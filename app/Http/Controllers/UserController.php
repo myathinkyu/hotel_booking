@@ -48,7 +48,7 @@ class UserController extends Controller
 
         auth()->login($user);
 
-        return redirect('/')-> with('status', 'User created and logged in');
+        return redirect('/');
     }
 
     /**
